@@ -1,0 +1,73 @@
+body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 500px;
+        background: url(photos/darkclouds.jpg) no-repeat center;
+    }
+
+
+    .container{
+        background-color: rgb(245, 96, 96);
+    }
+
+
+    h1{
+        color: yellow;
+        font-size: 50px;
+    }
+
+    label{
+        color: antiquewhite;
+        font-size: 25px;
+    }
+
+    #hour{
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        border: 3px solid antiquewhite;
+    }
+
+  
+
+    button{
+        height: 40px;
+        width: 300px;
+        border-radius:10px;
+        font-size: 20px;
+        background-color: black;
+        border: 2px solid aliceblue;
+        color: whitesmoke;
+    }
+
+    button:active{ 
+        border-color:yellow; 
+     }
+
+    input { 
+        text-align: center; 
+        font-size: 30px;
+    }
+
+   p{
+        background-color: yellow;
+        font-size: 25px; 
+        border-radius: 10px;
+        max-width: fit-content;
+        margin-left: 270px;
+    }
+
+
+    h2{
+        font-size: 30px;
+        color: antiquewhite;
+        background-color: black;
+       max-width: fit-content;
+        margin-left: 270px;
+    }
+
+label{
+    font-size: 40px;
+}
